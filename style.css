@@ -44,7 +44,7 @@ body {
     font-weight: 600;
 }
 
-.question p{
+.answer p{
     font-weight: 400;
 }
 .answer {
@@ -54,4 +54,45 @@ body {
 
 .faq.active .answer {
     max-height: 300px;
+}
+
+
+
+@media screen and (max-width: 460px){
+    .faq {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 335px){
+    .faq {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 275px){
+    .faq {
+        width: 220px;
+    }
+    .question-text {
+        font-size: 18px;
+    }
+    .answer p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 238px){
+    .faq {
+        width: 180px;
+    }
+    .question-text {
+        font-size: 18px;
+    }
+    .answer p{
+        font-size: 12px;
+    }
+    .faq-title {
+        font-size: 40px;
+    }
 }
