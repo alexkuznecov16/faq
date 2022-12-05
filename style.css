@@ -50,6 +50,7 @@ body {
 .answer {
     max-height: 0;
     overflow: hidden;
+    transition: max-height .4s ease;
 }
 
 .faq.active .answer {
